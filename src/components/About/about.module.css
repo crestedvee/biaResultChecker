@@ -1,0 +1,22 @@
+
+.aboutMain {
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  width: 90%;
+  height: 20rem;
+  background-color: #ffffff;
+  align-self: center;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  border-radius: 0.7rem;
+}
+
+.aboutMain h3{
+  
+}
+
+
+li:not(:last-child){
+  margin-bottom: 0.8rem;
+}

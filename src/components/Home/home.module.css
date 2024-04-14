@@ -1,0 +1,86 @@
+
+
+.container {
+  grid-area: section;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: auto;
+}
+
+.formMain {
+  margin-top: 5rem;
+  width: 90%;
+  height: 30rem;
+  border-radius: 0.7rem;
+  display: grid;
+  grid-template-areas: 'loginImg loginMain';
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+}
+
+.loginImgDiv {
+  grid-area: loginImg;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.loginImg {
+  width: 80%;
+}
+
+.loginMain {
+  grid-area: loginMain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formTitle {
+  font-size: 2rem;
+}
+
+.formDivs {
+  width: 80%;
+  height: 80%;  
+  
+}
+
+.selectNow {
+  width: 70%;
+  height: 2rem;
+  border: none;
+  border-bottom: 2px groove;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: grey;
+}
+
+.userId {
+  width: 70%;
+  height: 2rem;
+  border: none;
+  border-bottom: 2px groove;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.errText {
+  width: 30%;
+  color: rgb(196, 11, 11);
+  font-size: 0.9rem;
+}
+
+.formSubmit {
+  border-radius: 0.6rem;
+  width: 35%;
+  background-color: #091c31;
+  color: #ffffff;
+  height: 2rem;
+}
+
+.formSubmit:hover {
+  background-color: #0e396a;
+}

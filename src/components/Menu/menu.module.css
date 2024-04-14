@@ -1,0 +1,30 @@
+
+
+.mainMenu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 2rem;
+  opacity: 0.9;
+}
+
+.navLink {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navLink:hover{
+  color: brown;
+}
+
+.navLink:active{
+  color: #393030;
+  font-weight: bolder;
+}
+
+.navbar ul a.active {
+  color: rgb(34 197 94);
+ }

@@ -1,0 +1,50 @@
+body{
+  font-size: 16px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.headerMain {
+  display: grid;
+  grid-template-areas: "logo Heading button";
+  grid-template-columns: 0.125fr 0.75fr 0.125fr;
+  background-color: #091c31;
+  justify-content: space-around;
+
+}
+
+.logo {
+  grid-area: 'logo';
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo p {
+  font-size: 0.8rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logoImg {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.heading {
+  grid-area: Heading;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  grid-area: button;
+  text-align: center;
+  color: #ffffff;
+}
+

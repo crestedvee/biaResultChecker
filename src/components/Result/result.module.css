@@ -1,0 +1,17 @@
+
+.resultMain {
+  background-color: #ffffff;
+  width: 98%;
+  align-self: center;
+  border-radius: 0.5;
+  height: auto;
+  margin: auto;
+}
+
+.resultMain h3 {
+  text-align: center;
+}
+
+.resultImg {
+  width: 100%;
+}
